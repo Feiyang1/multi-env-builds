@@ -1,0 +1,10 @@
+{
+  "apiKey": "STAGING_API_KEY",
+  "authDomain": "STAGING_AUTH_DOMAIN",
+  "databaseURL": "STAGING_DATABASE_URL",
+  "projectId": "STAGING_PROJECT_ID",
+  "storageBucket": "STAGING_STORAGE_BUCKET",
+  "messagingSenderId": "STAGING_MESSAGING_SENDER_ID",
+  "appId": "STAGING_APP_ID",
+  "measurementId": "STAGING_MEASUREMENT_ID"
+}

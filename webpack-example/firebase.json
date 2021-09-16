@@ -1,0 +1,40 @@
+{
+  "hosting": [
+    {
+      "target": "dev",
+      "public": "dist",
+      "predeploy": "yarn build:dev",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "staging",
+      "public": "dist",
+      "predeploy": "yarn build:staging",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "production",
+      "public": "dist",
+      "predeploy": "yarn build:production",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "apiKey": "DEV_API_KEY",
+  "authDomain": "DEV_AUTH_DOMAIN",
+  "databaseURL": "DEV_DATABASE_URL",
+  "projectId": "DEV_PROJECT_ID",
+  "storageBucket": "DEV_STORAGE_BUCKET",
+  "messagingSenderId": "DEV_MESSAGING_SENDER_ID",
+  "appId": "DEV_APP_ID",
+  "measurementId": "DEV_MEASUREMENT_ID"
+}

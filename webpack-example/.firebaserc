@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "default": "my-project"
+  },
+  "targets": {
+    "my-project": {
+      "hosting": {
+        "dev": [
+          "hosting-name-for-dev-site"
+        ],
+        "staging": [
+          "hosting-name-for-staging-site"
+        ],
+        "production": [
+          "hosting-name-for-production-site"
+        ]
+      }
+    }
+  }
+}

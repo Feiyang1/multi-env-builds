@@ -1,3 +1,16 @@
 {
-    "name": "webpack-example"
+  "name": "webpack-example",
+  "scripts": {
+    "build:dev": "yarn webpack build --config-name dev",
+    "build:staging": "yarn webpack build --config-name staging",
+    "build:prod": "yarn webpack build --config-name prod"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "firebase": "^9.0.2"
+  }
 }
